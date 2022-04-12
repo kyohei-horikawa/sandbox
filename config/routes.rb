@@ -4,4 +4,5 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "articles#index"
+  root  'blogs#index'  #この1行を追加
 end
